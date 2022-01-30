@@ -1,0 +1,69 @@
+.projects {
+  background-color: #f8f9fa;
+  text-align: center;
+  &__header {
+  }
+
+  &__grid {
+    display: grid;
+  }
+
+  &__container {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+  }
+
+  &__img {
+    height: auto;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  &__svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      margin-left: 0.75rem;
+      filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(320deg)
+        brightness(104%) contrast(100%);
+    }
+  }
+
+  &__title {
+    margin-top: 1rem;
+  }
+
+  &__desc {
+    font-size: 0.9rem;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    a {
+      margin: 0.5rem 2rem;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      color: white;
+      background-color: $primary;
+    }
+  }
+}
+
+.container {
+  margin: 0rem 2rem;
+}
+
+// .img {
+//   filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(320deg) brightness(104%)
+//     contrast(100%);
+//   margin-left: 0.5rem;
+//   width: 1.15rem;
+// }

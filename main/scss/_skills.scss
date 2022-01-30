@@ -1,0 +1,46 @@
+.skills {
+  background-color: white;
+  padding-bottom: 4rem;
+
+  &__header {
+    padding-top: 4rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  &__grid {
+    display: grid;
+    place-items: center;
+  }
+
+  &__img {
+    height: 3.25rem;
+    width: 3.25rem;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    border-radius: 5rem;
+    // display: grid;
+    // place-items: center;
+    font-size: 0.7rem;
+    background-color: rgb(235, 235, 235);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 150px;
+    height: 150px;
+
+    h2 {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+// Grid Media Queries
+@media (min-width: 31.25em) {
+  .skills__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

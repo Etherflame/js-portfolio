@@ -1,0 +1,62 @@
+.hero {
+  margin-bottom: 15rem;
+
+  &__container {
+    margin: 4rem 2rem;
+  }
+  &__introduction {
+    font-size: 1.25rem;
+    color: $black;
+  }
+
+  &__name {
+    margin-top: 1rem;
+    font-size: 3rem;
+    line-height: 1;
+    color: $black;
+  }
+
+  &__tag {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: $primary;
+  }
+
+  &__desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: $black;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+
+    button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border-radius: 1rem;
+      display: block;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+
+    &-resume {
+      background-color: $primary;
+      color: white;
+    }
+
+    &-contact {
+      background-color: white;
+      color: $primary;
+    }
+  }
+}
+
+.btn {
+  font-family: inherit;
+  border: none;
+}

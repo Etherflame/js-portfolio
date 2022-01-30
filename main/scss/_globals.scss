@@ -1,0 +1,36 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0rem;
+  padding: 0rem;
+  background-color: #bfcdce;
+  // background-image: url("/img/bg-test.jpg");
+  // background: linear-gradient(0deg, #8c8caab4, #8c8caab4),
+  //   url("/img/bg-test.jpg");
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
